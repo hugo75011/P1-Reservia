@@ -677,3 +677,32 @@ section ul {
 	}
 }
 
+/* TABLETTE MEDIA QUERIES 500px - 1440px */
+
+@media (max-width: 1439px) {
+	.hebergements {
+    	display: flex;
+		flex-direction: column;
+	}
+
+	#marseille{
+		padding: 20px;
+		margin-right: 0px;
+		margin-bottom: 20px;
+	}
+
+	#marseille2{
+		display: flex;
+		flex-direction: column;
+		padding: 0px;
+	}
+
+	#marseille2 img{
+		max-width: 800px;
+	}
+	
+	#marseille2 .small_item{
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+}
