@@ -80,3 +80,17 @@ img {
 		border-top: 3px solid #0065FC;
 	}
 }
+
+footer {
+	background: #F2F2F2;
+}
+
+/* MAIN */
+
+.main {
+	max-width: 1440px;
+	margin: auto;
+	padding: 0 2rem;
+	box-sizing: border-box;
+}
+
