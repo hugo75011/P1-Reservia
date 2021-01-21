@@ -246,3 +246,32 @@ section ul {
 }
 
 
+/* HÉBERGEMENTS À MARSEILLE */
+
+.hebergements{
+	display:flex;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.hebergements span{
+	color: #161616;
+}
+
+.titre-item{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#marseille{
+	flex: 2;
+	background: #F2F2F2;
+	border-radius: 8px;
+	margin-right: 30px;
+	padding: 20px;
+}
+
+#marseille h2 {
+	margin: 0rem;
+}
+
