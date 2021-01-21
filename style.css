@@ -592,3 +592,88 @@ section ul {
 		padding: 20px;
 	}
 
+	#grid{
+		margin-top: 10px;
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+
+	#grid .item1 {
+		background: #FFFFFF;
+		border-radius: 8px;
+		margin-right: 0px;
+		margin-top: 20px;
+		box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.04);
+	}
+
+	#marseille{
+		flex: 2;
+		background: #F2F2F2;
+		border-radius: 8px;
+		margin-right: 0px;
+		padding: 20px;
+	}
+
+	#marseille2{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.activites{
+		border-radius: 8px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.small_item{
+		margin-top: 20px;
+	}
+
+	.grand_item img{
+		max-height: 150px;
+	}
+
+	.grand_item{
+		margin-top: 20px;
+	}
+
+	#marseille2 .colonne{
+		max-height: 480px;
+	}
+
+	.footerColumnwrapper {
+		flex-direction: column;
+		padding: 2rem;
+	}
+
+	.footerColumnwrapperColumn {
+		width: 100%;
+		padding: 0;
+		margin: 1rem 0;
+	}
+
+	.footerColumnwrapperColumn:first-child {
+		margin-top: 0;
+	}
+
+	.footerColumnwrapperColumn:last-child {
+		margin-bottom: 0;
+	}
+
+	.footerColumnwrapperColumnTitle {
+		margin: 0;
+	}
+
+	.footerColumnwrapperColumnLink:last-child {
+		margin-bottom: 0;
+	}
+
+	.flexvertical .itemvertical {
+		background: #FFFFFF;
+		border-radius: 8px;
+		margin-right: 0px;
+		margin-top: 20px;
+		box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.04);
+	}
+}
+
