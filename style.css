@@ -64,3 +64,19 @@ img {
 	font-weight: 600;
 }
 
+/* MEDIA QUERY LAYOUT HEADER EN DESKTOP */
+
+
+@media screen and (min-width: 501px) {
+
+	.header {
+		grid-template-columns: auto 1fr auto auto;
+		grid-template-areas: "logo . navbar button";
+	}
+	.headerNavLink[data-active=true] {
+		border-top: 3px solid #0065FC;
+	}
+	.headerNavLink:hover {
+		border-top: 3px solid #0065FC;
+	}
+}
