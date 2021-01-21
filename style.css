@@ -346,3 +346,32 @@ section ul {
 	padding-top: 5px;
 }
 
+/* LES PLUS POPULAIRES */
+
+.les_plus_populaires .titraille{
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+
+#populaire{
+	background: #F2F2F2;
+	border-radius: 8px;
+	padding: 20px;
+}
+
+
+.les_plus_populaires {
+	display: flex;
+	justify-content: space-between;
+}
+
+#populaire .flexvertical{
+	margin-top: 10px;
+}
+
+.flexvertical{
+	display:flex;
+	flex-direction: column;
+}
+
