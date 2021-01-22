@@ -533,7 +533,7 @@ section ul {
 	text-decoration: underline;
 }
 
-/* MOBILE MEDIA QUERIES  0px - 768px */
+/* MOBILE MEDIA QUERIES  380px - 768px */
 
 @media all and (max-width: 768px){
 
@@ -678,7 +678,7 @@ section ul {
 	}
 }
 
-/* TABLETTE MEDIA QUERIES 500px - 1440px */
+/* TABLETTE MEDIA QUERIES 768px - 1200px */
 
 @media (max-width: 1200px) {
 	.hebergements {
