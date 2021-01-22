@@ -680,10 +680,10 @@ section ul {
 
 /* TABLETTE MEDIA QUERIES 500px - 1440px */
 
-@media (max-width: 1439px) {
+@media (max-width: 1200px) {
 	.hebergements {
     	display: flex;
-		flex-direction: column;
+		flex-direction: column-reverse;
 	}
 
 	#marseille{
